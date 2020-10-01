@@ -1,0 +1,5 @@
+<?php
+$nazwisko = 'Wichtowski'
+
+
+ ?>
