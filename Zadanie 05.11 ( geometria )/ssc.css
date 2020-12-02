@@ -1,0 +1,40 @@
+html{
+  background: rgb(255,4,28);
+  background: linear-gradient(90deg, rgba(255,4,28,1) 15%, rgba(135,8,129,1) 62%, rgba(6,5,84,1) 95%);
+}
+ol{
+  color: white;
+
+}
+h1, h2{
+  color: white;
+  margin: 0 auto;
+}
+input{
+  margin: 0 auto;
+
+  }
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+h3{
+  text-decoration: none;
+}
+a:hover{
+  color:#db31be;
+  text-decoration: none;
+}
+a:visited{
+  color:#db31be;
+  text-decoration: none;
+}
+p{
+  color:white;
+  margin: 0 auto;
+}
+#hehe{
+  text-align: center;
+  color: yellow;
+
+}
