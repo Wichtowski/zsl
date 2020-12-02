@@ -1,0 +1,23 @@
+
+option{
+   width: 50px;
+
+}
+p{
+    margin: 0 auto;
+}
+
+
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-style: inset;
+
+
+
+}
+td{
+    padding:15px;
+
+
+}
