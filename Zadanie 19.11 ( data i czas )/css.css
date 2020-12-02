@@ -1,0 +1,13 @@
+html{
+    background: rgb(0,255,255);
+background: linear-gradient(90deg, rgba(0,255,255,0.6) 33%, rgba(2,207,37,1) 92%);
+}
+body{
+    margin-left:50px;
+}
+form {
+    display: inline-block;
+}
+ul, li{
+    text-align: justify;
+}
