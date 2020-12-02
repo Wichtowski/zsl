@@ -45,14 +45,15 @@ echo "<br>$text<br>";
 echo wordwrap($text,40,"<hr>");
 
 
-//czyszczenie zawartości bufora
-ob_clean();
+//czyszczenie zawartości bufora ob_clean();
+// ob_clean();
 
 //usuwanie białych znaków
 $name = 'Anna';
 $name1 = '  Anna ';
 echo 'Długość $name: ',strlen($name), "<br>"; //4
 echo 'Długość $name1: ',strlen($name1), "<br>"; //7
+
 
 echo strlen(ltrim($name1)); //5
 echo strlen(rtrim($name1)); //6
@@ -75,8 +76,7 @@ echo "<br>$search<br>" ; // Wypisze na  wszystko co znalazło przed Tel
 
 echo strstr('zsl@gmail.com', '@'); //@gmail
 echo strstr('zsl@gmail.com', 64); //@gmail
-$domain = substr(strstr('zsl@gmail.com', '@'), 1);
+$domain = substr(strstr('zsl@gmail.com', '@'), 1); //1 oznacza ile znaków jest ignorowanych po znaku @
 echo "<br>$domain";
-
 
  ?>
